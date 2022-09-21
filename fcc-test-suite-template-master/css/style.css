@@ -1,19 +1,116 @@
-/* #nav-bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: fixed;
-} */
-
-/* header {
-  top: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+body{
+  background: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+header {
   position: fixed;
+ width: 100%;
+  top: 0;
+  padding-bottom: 5rem;
+
+}
+nav{
+  min-height: 75px;
+  align-items: center;
+  padding: 0px;
+  justify-content: space-around;
+  display: flex;
+width: 100%;
+}
+
+.logo{
+  width: 300px;
+}
+.logo img{
+  width: 100%;
+  height: 50px;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+li{
+  text-decoration: none;
+}
+li a{
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+#email {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+#submit{
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+.hero{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+.feature{
+  display: flex;
+}
+.features .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+.video{
+  margin: auto;
+  width: 560px;
+}
+.pricing{
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+  text-align: center;
+  padding: 0;
+}
+.card h3{
+  
+  margin-top: 0;
+  margin-bottom: 10px;
+  background: gray;
+  font-size: 1.5rem;
+  font-weight: semibold;
+}
+.card button{
+  padding: 10px 20px;
+  background: yellow;
 }
 @media screen and (min-width: 480px) {
   #features {
     width: 80%;
   }
-} */
+}
+
